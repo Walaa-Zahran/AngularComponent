@@ -8,7 +8,7 @@
       </div>
     </div>
     <div class="detailContainer">
-      <div class="details">{{item.brand}}</div>
+      <div class="details" [ngStyle]="{color: item.brand=='Apple'?'Green':'Red'}"><b>Brand: </b>{{item.brand}}</div>
       <div class="details"><b>Price: </b>{{item.price}}</div>
       <div class="details"><b>Category: </b>{{item.category}}</div>
     </div>
