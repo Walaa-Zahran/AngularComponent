@@ -1,3 +1,4 @@
-<div>
-  <p class="alert alert-success">notification works!</p>
+<div [hidden]="displayNotification">
+  <p class="alert alert-success">This website uses cookies to provide better user experience.</p>
+  <div class="close"><button class="btn" (click)="closeNotification()">X</button></div>
 </div>
